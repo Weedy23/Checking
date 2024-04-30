@@ -1,0 +1,36 @@
+<component name="libraryTable">
+  <library name="bytedeco.javacpp.presets.tesseract.platform" type="repository">
+    <properties maven-id="org.bytedeco.javacpp-presets:tesseract-platform:4.0.0-1.4.4" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract-platform/4.0.0-1.4.4/tesseract-platform-4.0.0-1.4.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica-platform/1.77.0-1.4.4/leptonica-platform-1.77.0-1.4.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-android-arm.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-android-arm64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-android-x86.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-android-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-linux-x86.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-linux-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-linux-armhf.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-linux-ppc64le.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-macosx-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-windows-x86.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/leptonica/1.77.0-1.4.4/leptonica-1.77.0-1.4.4-windows-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp/1.4.4/javacpp-1.4.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-android-arm.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-android-arm64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-android-x86.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-android-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-linux-x86.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-linux-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-linux-armhf.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-linux-ppc64le.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-macosx-x86_64.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-windows-x86.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/bytedeco/javacpp-presets/tesseract/4.0.0-1.4.4/tesseract-4.0.0-1.4.4-windows-x86_64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
