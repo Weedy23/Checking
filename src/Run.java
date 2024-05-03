@@ -14,7 +14,10 @@ public class Run {
         for (; file == null;) {
             file = startScreen.file;
         }
-        System.out.println(file);
-        reader.read(file);
+        String fileString = reader.read(file);
+        System.out.println(fileString);
+        String[] fileStrings = fileString.split("\n");
+        
+        resultScreen = new ResultScreen(fileStrings);
     }
 }

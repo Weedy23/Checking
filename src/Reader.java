@@ -6,7 +6,7 @@ import static org.bytedeco.javacpp.lept.*;
 import static org.bytedeco.javacpp.tesseract.*;
 
 public class Reader {
-    public void read(File file) {
+    public String read(File file) {
         BytePointer outText;
 
         TessBaseAPI api = new TessBaseAPI();
@@ -21,11 +21,12 @@ public class Reader {
         api.SetImage(image);
         // Get OCR result
         outText = api.GetUTF8Text();
-        System.out.println("OCR output:\n" + outText.getString());
+        String res = outText.getString();
 
-        // Destroy used object and release memory
         api.End();
         outText.deallocate();
         pixDestroy(image);
+
+        return res;
     }
 }
