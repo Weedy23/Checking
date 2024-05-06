@@ -7,6 +7,7 @@ import static org.bytedeco.javacpp.tesseract.*;
 
 public class Reader {
     public String read(File file) {
+        System.out.println(1);
         BytePointer outText;
 
         TessBaseAPI api = new TessBaseAPI();

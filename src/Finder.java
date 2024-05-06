@@ -18,12 +18,17 @@ public class Finder {
         res[3] = findSum();
         res[4] = findDokNr();
 
+        int err = 0;
         for (int i = 0; i < 5; i++) {
             if (res[i] == null) {
-                res[i] = "Error: Not Found";
+                res[i] = "Error: Not Found!";
+                err++;
             }
         }
 
+        if (err == 5) {
+            return new String[] {"Error: Your photo is in bed quality or does not contains any text!"};
+        }
         return res;
     }
 
@@ -45,7 +50,11 @@ public class Finder {
             return strings[tempId];
         }
          */
-        return strings[id];
+        if (strings[id].contains("SIA")) {
+            return strings[id];
+        } else {
+            return null;
+        }
     }
 
     private String findRegNr() {
@@ -73,8 +82,11 @@ public class Finder {
                 resultsS[j] = best;
             }
              */
-            resultsStrings[j] = strings[id];
-            resultsS[j] = Best;
+            if (strings[id].contains("PVN") || strings[id].contains("REG")) {
+                resultsStrings[j] = strings[id];
+                resultsS[j] = Best;
+            }
+
         }
         if (resultsS[0] > resultsS[1]) {
             if (resultsS[0] > resultsS[2]) {
@@ -111,8 +123,10 @@ public class Finder {
                 resultsS[j] = best;
             }
              */
-            resultsStrings[j] = strings[id];
-            resultsS[j] = Best;
+            if (strings[id].contains("/") || strings[id].contains(".") || strings[id].contains("-")) {
+                resultsStrings[j] = strings[id];
+                resultsS[j] = Best;
+            }
         }
 
         if (resultsS[0] > resultsS[1]) {

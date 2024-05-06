@@ -1,4 +1,4 @@
-public class Main extends Reader{
+public class Main {
 
     static Run run = new Run();
 

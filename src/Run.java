@@ -10,10 +10,16 @@ public class Run {
 
     public void run() {
         startScreen = new StartScreen();
+        System.out.println(2);
         file = startScreen.file;
-        for (; file == null;) {
+
+        while (file == null) {
+            System.out.println(3);
             file = startScreen.file;
         }
+
+
+        System.out.println(4);
         String fileString = reader.read(file);
         System.out.println(fileString);
         String[] fileStrings = fileString.split("\n");

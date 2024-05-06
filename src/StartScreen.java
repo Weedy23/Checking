@@ -6,6 +6,8 @@ import java.io.File;
 public class StartScreen extends javax.swing.JFrame {
     StartScreen() {
         new JFrame("Checking");
+        setIconImage(new ImageIcon("src/Icon.jpeg").getImage());
+        setBackground(Color.BLACK);
         setSize(160, 100);
         setLocation(Toolkit.getDefaultToolkit().getScreenSize().width/2 - 80, Toolkit.getDefaultToolkit().getScreenSize().height/2 - 50);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -18,6 +20,7 @@ public class StartScreen extends javax.swing.JFrame {
 
     private void initButton() {
         choseFileButton = new JButton("Choose File");
+        choseFileButton.setBackground(Color.PINK);
         choseFileButton.setLocation(5, 5);
         choseFileButton.setSize(this.getWidth() - 26, this.getHeight()-48);
         choseFileButton.setVisible(true);
